@@ -12,7 +12,7 @@ source:
   sha256: 29f7bc9d53af8071444ae805ca686f17254f24ea38544c527f2c006dc1790a3f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -26,6 +26,7 @@ requirements:
     - python >=${{ python_min }}
     - httpx2 >=2.5.0
     - pyjwt >=2.8
+    - mcp >=2.0.0,<3
 
 tests:
   - python:
