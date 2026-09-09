@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.3.0"
+  version: "0.3.1"
 
 package:
   name: af-credentials
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/af_credentials/af_credentials-${{ version }}.tar.gz
-  sha256: 19542d0132862cd68f4a5fb1958988b43d059409f7c229b8770f3f574a422048
+  sha256: a606d8a4a1219359e64a2528ba8d9c3e3a798c682b020e71e3b9d900c46f6d13
 
 build:
   number: 0
